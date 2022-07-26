@@ -1,4 +1,4 @@
-let cardArray = [...cards];
+let cardArray = ['dark-mode', 'filters', 'numbers'];
 
 const section = document.querySelector('.card-section');
 const nav = document.querySelector('.navbar');
@@ -7,12 +7,12 @@ function displayCards() {
   section.innerHTML = cardArray
     .map((element) => {
       return `
-    <div class="col-sm-6 col-md-4 col-lg-3 p-2 card transparent text-white b0">
-          <img src="15BPimg/${element}.JPG" class="card-img" alt="..." />
+    <div class="col-3 mx-5 p-2 card transparent text-white b0 animate__swing">
+          <img src="img/${element}.JPG" class="card-img" alt="..." />
           <div class="card-img-overlay text-center hidden">
             <a
               class="btn btn-primary center"
-              href="15BP/${element}/index.html"
+              href="esSix/${element}/index.html"
               >Go To Color ${
                 element.charAt(0).toUpperCase() +
                 element.substring(1, element.length)

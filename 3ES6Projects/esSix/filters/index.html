@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters Starter</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .fixed-bottom-left {
+        position: fixed;
+        left: 0;
+        bottom: 10px;
+      }
+      .btn-back {
+        width: 400px;
+        border: solid 1px blue;
+        padding: 10px;
+        border-radius: 10px;
+        color: blue;
+        font-weight: 800;
+      }
+      .btn-back:hover {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+    <!-- styles -->
+  </head>
+  <body>
+    <!--products section-->
+    <section class="products">
+      <!--filters-->
+      <div class="filters-container">
+        <form action="" class="input-form">
+          <input type="text" class="search-input" placeholder="search..." />
+        </form>
+        <!--categories-->
+        <h5>Company</h5>
+        <article class="companies">
+          <button class="company-btn">temp-values</button>
+        </article>
+      </div>
+      <!--products-->
+      <div class="products-container">
+        <article class="product">
+          <img src="" alt="" class="product-img img" />
+          <footer>
+            <h5 class="product-name">name</h5>
+            <span class="product-price">price</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+    <!--Go back button-->
+    <div class="fixed-bottom-left">
+      <a type="button" class="btn-back" href="../../15BP.html"> Go back </a>
+    </div>
+    <!--End of Go back button-->
+    <!--filters-->
+
+    <script src="./products.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

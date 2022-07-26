@@ -15,23 +15,29 @@
     />
     <!--End of Bootstrap Library-->
     <!--Custom CSS-->
-    <link rel="stylesheet" href="15BP.css" />
+    <link rel="stylesheet" href="es.css" />
     <!--End of Custom CSS-->
-    <title>15 Basic Projects</title>
+    <!--Animate-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--End of Animate-->
+    <title>3 ES6 Projects</title>
   </head>
   <body>
     <!--NavBar-->
     <nav class="navbar navbar-dark transparent fixed-top">
       <form class="container-fluid justify-content-center">
         <a class="navbar-brand mx-3" href="../main.html">Salasiandev</a>
-        <a class="btn btn-sm btn-secondary disabled mx-3" type="a">
-          15 Basic Projects
-        </a>
         <a
           class="btn btn-sm btn-secondary mx-3"
           type="a"
-          href="../3ES6Projects/es.html"
+          href="../15/15BP.html"
         >
+          15 Basic Projects
+        </a>
+        <a class="btn btn-sm btn-secondary disabled mx-3" type="a">
           3 ES6 Projects
         </a>
       </form>
@@ -39,12 +45,36 @@
     <!--End of NavBar-->
     <!--Container-->
     <section class="container my-5">
-      <!--First Flex Row-->
-      <div class="row card-section"></div>
-      <!--End of Fourth Flex Row-->
+      <div class="row card-section py-5">
+        <div class="col-3 mx-5 p-2 card transparent text-white b0">
+          <img src="img/dark-mode.JPG" class="card-img" alt="..." />
+          <div class="card-img-overlay text-center hidden">
+            <a class="btn btn-primary center" href="esSix/dark-mode/index.html"
+              >Go To Color Dark Mode
+            </a>
+          </div>
+        </div>
+        <div class="col-3 mx-5 p-2 card transparent text-white b0">
+          <img src="img/filters.JPG" class="card-img" alt="..." />
+          <div class="card-img-overlay text-center hidden">
+            <a class="btn btn-primary center" href="esSix/filters/index.html"
+              >Go To Color Filters</a
+            >
+          </div>
+        </div>
+        <div class="col-3 mx-5 p-2 card transparent text-white b0">
+          <img src="img/numbers.JPG" class="card-img" alt="..." />
+          <div class="card-img-overlay text-center hidden">
+            <a class="btn btn-primary center" href="esSix/numbers/index.html"
+              >Go To Color Numbers</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
     <!--End of Container-->
   </body>
+  <!--End of body-->
   <!--Bootstrap with JS-->
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -57,6 +87,5 @@
     crossorigin="anonymous"
   ></script>
   <!--Bootstrap with JS-->
-  <script src="15BPcards.js"></script>
-  <script src="15BP.js"></script>
+  <script src="es.js"></script>
 </html>
