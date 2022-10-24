@@ -41,9 +41,6 @@ p {
 span {
   font-size: 30px;
 }
-.ab-adjst {
-  padding-right: 38px;
-}
 .img-ab {
   height: 70px;
 }
@@ -77,13 +74,4 @@ span {
   height: 0px;
   border: solid;
   border-color: black;
-}
-.fix-left-1 {
-  margin-left: -12px;
-}
-.fix-left-2 {
-  margin-left: -23px;
-}
-.fix-left-3 {
-  margin-left: -8px;
 }
